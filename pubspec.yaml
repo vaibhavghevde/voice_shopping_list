@@ -1,0 +1,16 @@
+name: voice_shopping_list
+description: A voice-activated shopping list application.
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_background_service: ^3.0.0
+  porcupine_flutter: ^3.0.0
+  speech_to_text: ^6.5.1
+  shared_preferences: ^2.2.0
+
+flutter:
+  uses-material-design: true

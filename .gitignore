@@ -1,0 +1,38 @@
+# .gitignore for Flutter
+# https://dart.dev/guides/libraries/private-files
+# Windows metadata
+Executable
+Thumbs.db
+Desktop.ini
+
+# Mac metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Android metadata
+.gradle
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
+/android/key.properties
+/android/app/src/main/res/values/strings.xml
+
+# iOS metadata
+.generated
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+
+# Flutter/Dart metadata
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Log files
+*.log
+*.lock
